@@ -26,14 +26,14 @@ class Var:
 
     # Telegram Credentials
 
-    API_ID = config("API_ID", default=6, cast=int)
-    API_HASH = config("API_HASH", default="eb06d4abfb49dc3eeb1aeb98ae0f581e")
-    BOT_TOKEN = config("BOT_TOKEN", default=None)
+    API_ID = config("API_ID", default=627806628, cast=int)
+    API_HASH = config("API_HASH", default="25d88301e886b82826a525b7cf52e090")
+    BOT_TOKEN = config("BOT_TOKEN", default="8761998102:AAGXEw-vBJniAPQAqSvUcYrsITZfbEt4_4Y")
     SESSION = config("SESSION", default=None)
 
     # Database Credentials
 
-    MONGO_SRV = config("MONGO_SRV", default=None)
+    MONGO_SRV = config("MONGO_SRV", default="mongodb+srv://Bosshub:JMaff0WvazwNxKky@cluster0.l0xcoc1.mongodb.net/?appName=Cluster0")
 
     # Channels Ids
 
