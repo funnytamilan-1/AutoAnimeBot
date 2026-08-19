@@ -26,7 +26,7 @@ class Var:
 
     # Telegram Credentials
 
-    API_ID = config("API_ID", cast=27806628)
+    API_ID = config("API_ID", cast=int)
     API_HASH = config("API_HASH", "25d88301e886b82826a525b7cf52e090")
     BOT_TOKEN = config("BOT_TOKEN", default="8761998102:AAGXEw-vBJniAPQAqSvUcYrsITZfbEt4_4Y")
     SESSION = config("SESSION", default=None)
